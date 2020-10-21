@@ -4,7 +4,7 @@ import json
 from bs4 import BeautifulSoup
 
 address = 'lincoln park'
-geo_api_key = "AIzaSyDc35BidhibVeF-gEBwQSMgAE6cRKEZt9A"
+geo_api_key = "googlekey"
 geocoding_url = 'https://maps.googleapis.com/maps/api/geocode/json?address={},Chicago,IL&key={}'.format(address, geo_api_key)
 request = requests.get(geocoding_url).json()
 
