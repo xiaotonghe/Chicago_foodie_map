@@ -9,7 +9,7 @@ from itertools import product
 def get_data(test=1):
 
     # parameters
-    api_key = '5mmP45AiQV5p20S0a5uyV5gMayS_udYfyFxdEWCky7kfN1Lh3g5kfIHkIWFxmj4rliwZumJWUh4ibiGabWAmqXGEw3tSV6jbYSFOvsmgsV5mpiOIJtDIwuXgSXZFX3Yx'
+    api_key = 'yelpapikey'
     headers = {'Authorization': 'Bearer %s' % api_key}
     url = 'https://api.yelp.com/v3/businesses/search'
     ca = gpd.read_file('Boundaries - Community Areas (current).geojson')
